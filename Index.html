@@ -1,0 +1,103 @@
+# Struktur Project G-Safe Siap Deploy ke Vercel
+
+```text
+g-safe-website/
+│
+├── index.html
+├── style.css
+├── script.js
+└── vercel.json
+```
+
+---
+
+# 1. index.html
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G-Safe | PT GasTrace ID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">G-Safe</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#fitur">Fitur</a></li>
+      <li><a href="#harga">Harga</a></li>
+      <li><a href="#simulator">Simulator</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Smart LPG 3KG Protection</h1>
+    <p>
+      G-Safe adalah alat deteksi kebocoran gas LPG 3KG
+      untuk rumah tangga, kos, dan apartement.
+    </p>
+    <button onclick="scrollToSection()">Lihat Produk</button>
+  </div>
+</section>
+
+<section id="fitur">
+  <h2>Keunggulan G-Safe</h2>
+  <div class="card-container">
+    <div class="card">Deteksi Gas Cepat</div>
+    <div class="card">Alarm Otomatis</div>
+    <div class="card">Instalasi Mudah</div>
+    <div class="card">Hemat Listrik</div>
+  </div>
+</section>
+
+<section id="harga">
+  <h2>Harga Produk</h2>
+  <div class="pricing-card">
+    <h3>G-Safe Standard</h3>
+    <p class="price">Rp 499.000</p>
+    <ul>
+      <li>Sensor Gas LPG</li>
+      <li>Alarm Otomatis</li>
+      <li>Tanpa IoT HP</li>
+      <li>Tanpa LCD Temperature</li>
+      <li>Tanpa Akurasi Kadar Gas</li>
+    </ul>
+  </div>
+</section>
+
+<section id="simulator">
+  <h2>Simulator Deteksi Gas</h2>
+  <div class="simulator-box">
+    <p id="status">Aman — Tidak Ada Kebocoran</p>
+    <button onclick="simulateGas()">Mulai Simulasi</button>
+  </div>
+</section>
+
+<section id="kontak">
+  <h2>Hubungi Kami</h2>
+  <p>Instagram: @gastrace02</p>
+  <p>WhatsApp: 085190615725</p>
+  <p>Shopee: Gas-TraceID</p>
+  <p>Email: gastrace02@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 G-Safe by PT GasTrace ID
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
+
+---
+
+5. Selesai — website langsung online tanpa error 404
