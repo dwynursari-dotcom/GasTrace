@@ -1,0 +1,92 @@
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f7fbff;
+  color: #111;
+}
+
+header {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #eaf4ff;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+button {
+  padding: 14px 28px;
+  border: none;
+  background: #0B5ED7;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.card, .pricing-card, .simulator-box {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.price {
+  font-size: 32px;
+  color: #0B5ED7;
+  margin: 20px 0;
+}
+
+footer {
+  background: #06142B;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+```
+
+---
